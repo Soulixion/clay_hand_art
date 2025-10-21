@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Clay_Hand_Art</title>
+  <link rel="icon" href="Img/Icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://www.paypalobjects.com/ncp/cart/cart.js" data-merchant-id="DZC3CZVELKMVC"></script>
+</head>
+
+<body> 
+
+  <header class="header">
+
+    <img class="PDP" src="Img/PDP.png">
+
+    <div class="header-center">
+      <a href="aboutUs.html" class="itemToHighlight">A propos</a>
+      <span class="divider">|</span>
+      <a href="index.html" class="itemToHighlight">Boutique</a>      
+    </div>
+
+    <a href="" class="itemToHighlight" id="basketIconContainer"><img id="basketIcon" src="Img/SVG/Basket.svg"></a>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Prociono&display=swap" rel="stylesheet">
+
+  </header>
+
+  <nav>
+
+
+    <paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
+    <script>
+      cartPaypal.Cart({ id: "pp-view-cart" })
+    </script>
+
+    <paypal-add-to-cart-button data-id="6J4LZZQA6HXVW"></paypal-add-to-cart-button>
+    <script>
+      cartPaypal.AddToCart({ id: "6J4LZZQA6HXVW" })
+    </script>
+
+
+
+    <div class="mainPage">
+
+      <div class="shopContainer">
+
+        <img id="shop" src="Img/SVG/shop.svg">
+        <h1 class="shopTitle">Boutique</h1>
+        <h2 id="shopNumber">16 articles</h2>
+
+      </div>
+
+      <div id="themeButtons"></div>
+
+      <div class="itemsContainer"> </div>
+      
+    </div>
+  </nav>
+
+  <img src="Img/SVG/UpArrow.svg" id="btnTop">
+
+  <footer class="footer">
+    <p>© Copyright 2025 Clay_Hand_Art. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
