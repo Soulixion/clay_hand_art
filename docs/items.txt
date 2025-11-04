@@ -1,0 +1,10 @@
+Name;Theme;Price;Image;Description
+Boucles;Boucles d'oreilles;15.99;Img\Items\Item1;Boucles d'oreilles fleuries dorées à l'or fin. La base est en Fimo Leather effect pour apporter plus de souplesse et de légereté. Les supports et pendentifs sont dorés à l'or fin ce qui rend ces boucles durables et hypoallergéniques !
+Bracelet jaspe et monstera ;Bracelet;12.99;Img\Items\Item2;Bracelet réglable en pieres naturelles, perles et pendentif monstera en acier inoxydable. L’acier inoxydable ne noircit pas, ne rouille pas et ne provoque pas d’allergie, ce qui en fait un matériau idéal pour un bijou durable ! Ce bracelet est ajustable pour convenir à tous les poignets.
+Boucles d'oreilles éventail;Boucles d'oreilles;24.99;Img\Items\Item3;"Boucles d'oreilles …La résine apporte :<br> 
+• acier inoxydable : ne noircit pas,
+ ne rouille pas et ne pr
+ovoque pas d’allergi
+e"
+Bijou4;Collier;15.99;Img\Items\Item4;"FAUSSE DESCRIPTION <br/>
+Boucles d'oreilles fleuries dorées à l'or fin. La base est en Fimo Leather effect pour apporter plus de souplesse et de légereté. Les supports et pendentifs sont dorés à l'or fin ce qui rend ces boucles durables et hypoallergéniques !"

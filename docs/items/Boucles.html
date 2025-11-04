@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boucles - Clay_Hand_Art</title>
+  <link rel="icon" href="../Img/Icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../itemStyle.css">
+</head>
+<body>
+  <header class="header">
+    <img class="PDP" src="../Img/PDP.png" alt="Logo">
+    <div class="header-center">
+      <a href="../aboutUs.html" class="itemToHighlight">A propos</a>
+      <span class="divider">|</span>
+      <a href="../index.html" class="itemToHighlight">Boutique</a>
+    </div>
+    <a href="#" class="itemToHighlight snipcart-checkout" id="basketIconContainer">
+      <img id="basketIcon" src="../Img/SVG/Basket.svg" alt="Panier">
+    </a>
+  </header>
+
+  <div class="mainPage">
+  
+    <div class="backDiv">
+      <a href="../index.html">
+        <img href="../index.html" id="leftArrowIcon" src="../Img/SVG/LeftArrow.svg">
+      </a>
+      <a href="../index.html" class="back-link">Retour à la boutique</a>
+    </div>
+
+    <div class="divs">
+      <div class="rightDiv">
+        <div class="carousel">
+  <div class="carousel-image active"><img src="../Img/Items/Item1/menu.jpg" alt="Boucles image 1"></div>
+  <div class="carousel-image "><img src="../Img/Items/Item1/mendzqdu.jpg" alt="Boucles image 2"></div>
+  <div class="carousel-image "><img src="../Img/Items/Item1/menzdu.jpg" alt="Boucles image 3"></div>
+
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+</div>
+
+      </div>
+
+      <div class="leftDiv">
+        <div class="product-header">
+          <h1 class="product-title">Boucles</h1>
+          <p class="product-theme">Boucles d'oreilles</p>
+          <p class="product-price">15.99€</p>
+        </div>
+
+        <p class='product-description'>Boucles d'oreilles fleuries dorées à l'or fin. La base est en Fimo Leather effect pour apporter plus de souplesse et de légereté. Les supports et pendentifs sont dorés à l'or fin ce qui rend ces boucles durables et hypoallergéniques !</p>
+
+        <div class="product-footer">
+
+          <div class="quantity-wrapper">
+            <button type="button" class="qty-btn" id="minus">−</button>
+            <input type="text" id="quantity" value="1" min="1">
+            <button type="button" class="qty-btn" id="plus">+</button>
+          </div>
+
+          <button 
+            class="snipcart-add-item"
+            data-item-id="Boucles"
+            data-item-price="15.99"
+            data-item-url="items/Boucles.html"
+            data-item-description="Boucles d'oreilles"
+            data-item-image="../Img/Items/Item1/menu.jpg"
+            data-item-name="Boucles">
+            Ajouter au panier
+          </button>
+        </div>       
+        
+      </div>
+    </div>
+    <div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <p>© Copyright 2025 Clay_Hand_Art. All rights reserved.</p>
+  </footer>
+
+  <script src="../carousel.js"></script>
+  <script>
+  {snipcart_js}
+  </script>
+
+  <script>
+  window.SnipcartSettings = {
+    publicApiKey: "ZTM4MjI1YzctZThiNS00NDk5LWFhMjktNTlkNjhhN2ZhMzMxNjM4OTc1NDQ4ODQ2MTkyNjcz",
+    loadStrategy: "on-user-interaction",
+    addProductBehavior: "true",
+  };
+
+  (function(){var c,d;(d=(c=window.SnipcartSettings).version)!=null||(c.version="3.0");var s,S;(S=(s=window.SnipcartSettings).timeoutDuration)!=null||(s.timeoutDuration=2750);var l,p;(p=(l=window.SnipcartSettings).domain)!=null||(l.domain="cdn.snipcart.com");var w,u;(u=(w=window.SnipcartSettings).protocol)!=null||(w.protocol="https");var m,g;(g=(m=window.SnipcartSettings).loadCSS)!=null||(m.loadCSS=!0);var y=window.SnipcartSettings.version.includes("v3.0.0-ci")||window.SnipcartSettings.version!="3.0"&&window.SnipcartSettings.version.localeCompare("3.4.0",void 0,{numeric:!0,sensitivity:"base"})===-1,f=["focus","mouseover","touchmove","scroll","keydown"];window.LoadSnipcart=o;document.readyState==="loading"?document.addEventListener("DOMContentLoaded",r):r();function r(){window.SnipcartSettings.loadStrategy?window.SnipcartSettings.loadStrategy==="on-user-interaction"&&(f.forEach(function(t){return document.addEventListener(t,o)}),setTimeout(o,window.SnipcartSettings.timeoutDuration)):o()}var a=!1;function o(){if(a)return;a=!0;let t=document.getElementsByTagName("head")[0],n=document.querySelector("#snipcart"),i=document.querySelector('src[src^="'.concat(window.SnipcartSettings.protocol,"://").concat(window.SnipcartSettings.domain,'"][src$="snipcart.js"]')),e=document.querySelector('link[href^="'.concat(window.SnipcartSettings.protocol,"://").concat(window.SnipcartSettings.domain,'"][href$="snipcart.css"]'));n||(n=document.createElement("div"),n.id="snipcart",n.setAttribute("hidden","true"),document.body.appendChild(n)),h(n),i||(i=document.createElement("script"),i.src="".concat(window.SnipcartSettings.protocol,"://").concat(window.SnipcartSettings.domain,"/themes/v").concat(window.SnipcartSettings.version,"/default/snipcart.js"),i.async=!0,t.appendChild(i)),!e&&window.SnipcartSettings.loadCSS&&(e=document.createElement("link"),e.rel="stylesheet",e.type="text/css",e.href="".concat(window.SnipcartSettings.protocol,"://").concat(window.SnipcartSettings.domain,"/themes/v").concat(window.SnipcartSettings.version,"/default/snipcart.css"),t.prepend(e)),f.forEach(function(v){return document.removeEventListener(v,o)})}function h(t){!y||(t.dataset.apiKey=window.SnipcartSettings.publicApiKey,window.SnipcartSettings.addProductBehavior&&(t.dataset.configAddProductBehavior=window.SnipcartSettings.addProductBehavior),window.SnipcartSettings.modalStyle&&(t.dataset.configModalStyle=window.SnipcartSettings.modalStyle),window.SnipcartSettings.currency&&(t.dataset.currency=window.SnipcartSettings.currency),window.SnipcartSettings.templatesUrl&&(t.dataset.templatesUrl=window.SnipcartSettings.templatesUrl))}})();
+  </script>
+
+  <script>
+  const minus = document.getElementById("minus");
+  const plus = document.getElementById("plus");
+  const quantityInput = document.getElementById("quantity");
+  const addButton = document.querySelector(".snipcart-add-item");
+
+  const unitPrice = parseFloat("15.99"); // prix unitaire
+  const priceSpan = document.getElementById("price");
+
+  minus.addEventListener("click", () => {
+    let val = parseInt(quantityInput.value);
+    if (isNaN(val) || val <= 1) val = 1;
+    else val--;
+    quantityInput.value = val;
+    addButton.dataset.itemQuantity = val;
+    priceSpan.textContent = (unitPrice * val).toFixed(2);
+  });
+
+  plus.addEventListener("click", () => {
+    let val = parseInt(quantityInput.value);
+    if (isNaN(val) || val < 1) val = 1;
+    else val++;
+    quantityInput.value = val;
+    addButton.dataset.itemQuantity = val;
+    priceSpan.textContent = (unitPrice * val).toFixed(2);
+  });
+
+  // Mettre à jour si l'utilisateur écrit directement dans l'input
+  quantityInput.addEventListener("input", () => {
+    let val = parseInt(quantityInput.value);
+    if (isNaN(val) || val < 1) val = 1;
+    quantityInput.value = val;
+    addButton.dataset.itemQuantity = val;
+    priceSpan.textContent = (unitPrice * val).toFixed(2);
+  });
+  </script>
+
+</body>
+</html>
